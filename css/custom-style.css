@@ -1,0 +1,55 @@
+.text-deeppink {
+  color: deeppink;
+}
+
+.text-cornsilk {
+  color: cornsilk;
+}
+
+.text-dodgerblue {
+  color: dodgerblue;
+}
+
+.bg-darkcyan {
+  background-color: darkcyan;
+}
+
+.bg-cornsilk {
+  background-color: cornsilk;
+}
+
+.bg-ghostwhite {
+  background-color: GhostWhite;
+}
+
+.resposible-list li {
+  background: transparent;
+}
+
+.avatar {
+  max-width: 120px;
+}
+
+.contact-icon {
+  min-width: 25px;
+}
+
+.main-skill-icon {
+  min-width: 200px;
+}
+
+.other-skill-icon {
+  min-width: 50px;
+}
+
+.it-terms {
+  color: gray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.certification-img {
+  max-width: 12rem;
+}
