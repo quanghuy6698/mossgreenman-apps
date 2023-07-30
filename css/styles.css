@@ -1,0 +1,62 @@
+.app-lst {
+  background: ghostwhite;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.app-wrapper {
+  padding: 16px;
+}
+
+.app-box {
+  padding: 8px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.app-box__logo {
+  max-width: 200px;
+}
+
+.app-box__detail {
+  padding-top: 8px;
+}
+
+.app-box__name {
+  font-weight: bold;
+}
+
+.app-box__des {
+}
+
+.app-box__app-url {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-box__ggplay-url {
+  background: mediumseagreen;
+  padding: 8px;
+  color: white;
+  border-radius: 8px;
+}
+
+.app-box__ggplay-url:focus {
+  outline: none;
+}
+
+.app-box__appstore-url {
+  background: lightgray;
+  padding: 8px;
+  color: white;
+  border-radius: 8px;
+}
+
+.app-box__appstore-url:focus {
+  outline: none;
+}
