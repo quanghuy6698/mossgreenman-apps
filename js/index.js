@@ -1,18 +1,23 @@
-const googleSearchUrl = "https://www.google.com/search?q=";
-
-/**
- * redirect to Google search
- * @param searchTxt refer to search keywords
- */
-function searchGoogle(searchTxt) {
-  let redirectUrl = googleSearchUrl + searchTxt;
-  redirect(redirectUrl);
-}
+const appUrls = {
+  captainVietnam: {
+    android: "https://play.google.com/store/apps/details?id=com.ironhuy.captainVietnam",
+    ios: "",
+  },
+  classifyChallenge: {
+    android: "https://play.google.com/store/apps/details?id=com.ironhuy.classifychallenge",
+    ios: "",
+  },
+  flappyTrader: {
+    android: "https://play.google.com/store/apps/details?id=com.ironhuy.flappyTrader",
+    ios: "",
+  },
+};
 
 /**
  * redirect to url
  * @param url refer to url to redirect
  */
-function redirect(url) {
-  window.open(url, "_blank");
+function viewAppOnStore(store, appId) {
+  let appUrl = appUrls[appId][store];
+  window.open(appUrl, "_blank");
 }
