@@ -60,3 +60,12 @@
 .app-box__appstore-url:focus {
   outline: none;
 }
+
+.privacy-policy {
+  background: #fff;
+  padding: 32px;
+}
+
+.svc-prov {
+  list-style-type: none;
+}
