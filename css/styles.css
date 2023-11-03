@@ -1,4 +1,43 @@
-.app-lst {
+/* privacy policy */
+.privacy-policy {
+  background: #fff;
+  padding: 32px;
+}
+
+.privacy-policy-part__title {
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 16px;
+}
+
+.privacy-policy-part__content {
+  font-size: 18px;
+  padding-top: 16px;
+}
+
+.privacy-policy-3rd-services {
+  list-style-type: none;
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.service-provider {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+/* app list */
+.app-list-label {
+  background: cornsilk;
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.app-list {
   background: ghostwhite;
   display: flex;
   justify-content: flex-start;
@@ -28,10 +67,12 @@
 }
 
 .app-box__name {
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .app-box__des {
+  font-size: 18px;
 }
 
 .app-box__app-url {
@@ -39,33 +80,42 @@
   flex-direction: column;
 }
 
-.app-box__ggplay-url {
-  background: mediumseagreen;
+.app-box__download {
+  padding-top: 8px;
+}
+
+.app-box__download-btn {
+  border-radius: 8px;
+  border: 4px solid gainsboro;
   padding: 8px;
-  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-box__store-icon {
+  max-width: 80px;
   border-radius: 8px;
 }
 
-.app-box__ggplay-url:focus {
+.app-box__ggplay-label {
+  color: mediumseagreen;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 8px;
+}
+
+.app-box__ggplay-btn:focus {
   outline: none;
 }
 
-.app-box__appstore-url {
-  background: lightgray;
-  padding: 8px;
-  color: white;
-  border-radius: 8px;
-}
-
-.app-box__appstore-url:focus {
-  outline: none;
-}
-
-.privacy-policy {
-  background: #fff;
-  padding: 32px;
-}
-
-.svc-prov {
-  list-style-type: none;
+.app-box__appstore-label {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 8px;
 }
