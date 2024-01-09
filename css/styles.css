@@ -1,7 +1,64 @@
+/* header */
+.header {
+  background-color: darkcyan;
+  padding: 16px;
+  text-align: center;
+}
+
+.header__label {
+  color: cornsilk;
+  font-size: 24px;
+}
+
+/* nav */
+.nav {
+  background-color: darkcyan;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs__tab-wrapper {
+  background-color: transparent;
+  padding: 8px;
+}
+
+.tabs__tab {
+  border: 2px solid cornsilk;
+  color: cornsilk;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.tabs__tab--active {
+  background-color: cornsilk;
+  color: darkcyan;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+/* footer */
+.footer {
+  background-color: darkcyan;
+  padding: 16px;
+  text-align: center;
+}
+
+.footer__label {
+  color: cornsilk;
+  font-size: 24px;
+}
+
 /* privacy policy */
 .privacy-policy {
   background: #fff;
   padding: 32px;
+  display: block;
 }
 
 .privacy-policy-part__title {
@@ -27,16 +84,6 @@
 }
 
 /* app list */
-.app-list-label {
-  background: cornsilk;
-  color: black;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .app-list {
   background: ghostwhite;
   display: flex;
@@ -90,7 +137,6 @@
   padding: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-  width: 100%;
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
